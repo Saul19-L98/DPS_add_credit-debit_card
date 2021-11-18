@@ -141,7 +141,7 @@ const Form = ({ cards, setCards, guardarMostrarForm, guardarCardsStorage }) => {
                         onPress = { () => createNewCard() }
                         style = { styles.btnSubmit }
                     >
-                        <Text style = { styles.textoSubmit }>Crear Nueva Cita</Text>
+                        <Text style = { styles.textoSubmit }>Añadir nueva tarjeta</Text>
                     </TouchableHighlight>
                 </View>
             </ScrollView>
